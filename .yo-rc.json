@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "ccc-assignment",
+    "libraryId": "a6df1321-b950-49ed-903d-c24659edf279",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ccc-assignment",
+    "solutionShortDescription": "ccc-assignment description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

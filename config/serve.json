@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://nablus22.sharepoint.com/sites/CCCAssignment/Lists/Test/AllItems.aspx",
+      
+      "customActions": {
+        "b77c47a9-0a53-4629-a32a-dd208f3c1771": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "createForm": {
+      "pageUrl": "https://nablus22.sharepoint.com/sites/CCCAssignment/Lists/Test/AllItems.aspx",
+      "customActions": {
+        "b77c47a9-0a53-4629-a32a-dd208f3c1771": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

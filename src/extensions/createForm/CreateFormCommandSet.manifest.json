@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "b77c47a9-0a53-4629-a32a-dd208f3c1771",
+  "alias": "CreateFormCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "items": {
+    "CMD_PANEL": {
+      "title": { "default": "Add Item" },
+      "iconImageUrl": "icons/request.png",
+      "type": "command"
+    }
+  }
+}
